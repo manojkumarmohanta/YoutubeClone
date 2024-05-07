@@ -1,0 +1,77 @@
+
+.navbar{
+    margin: 0;
+    height: 80px;
+    background-color: #24b1e0;
+}
+.bi{
+    font-size:30px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.custom-list{
+    margin-right: 30px;
+}
+.custom-list:hover{
+    color: #fff;
+}
+.navbar-brand{
+    letter-spacing: -0.2rem;
+    font-size: 30px;
+    font-weight: 700;
+
+}
+.navbar-brand:hover{
+    color:#fc0317;
+}
+.bi-youtube{
+    margin-right: 5px;
+    margin-top: -10px;
+}
+.form-control{
+    height: 40px;
+    border:none;
+    border-radius:4px 0 0px 4px ;
+}
+.form-control:hover{
+    letter-spacing: 0.3em;
+    
+}
+.btn{
+    height: 40px;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    color: #fff;
+    background-color: #1b7b87;
+}
+.bi-search{
+    font-size: 20px;
+}
+.bi-search:hover{
+    font-size: 24px;
+    color: #24b1e0;
+    
+}
+.nav-right{
+    display:flex;
+    justify-content: end;
+}
+.bi-plus-square-fill{
+    cursor: pointer;
+}
+.bi-plus-square-fill:hover{
+    color: #fff;
+}
+.bi-bell-fill{
+    margin-left:50px;
+    cursor: pointer;
+}
+.bi-bell-fill:hover{
+    color: #fff;
+}
+.bi-person-circle{
+    margin-left:50px;
+}
+.bi-person-circle:hover{
+    color: #fff;
+}

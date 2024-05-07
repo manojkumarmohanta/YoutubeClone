@@ -1,0 +1,39 @@
+.con{
+    background-color: #24b1e0;
+    width: 512px;
+    height: 100%;
+    
+}
+
+.list-group-item{
+    list-style-type: none;
+    background-color: #24b1e0;
+    border:none;
+    border-bottom: 1px solid black;
+    border-radius: 5px 5px 0 0 ;
+    
+}
+.list-group-item li h2{
+    padding-left: 10px;
+    cursor: pointer;
+
+}
+.list-group-item li h2:hover{
+    background-color: #1b7b87;
+}
+.headings{
+    padding-left: 5px;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 0 10px 5%;
+    cursor: pointer;
+}
+.headings:hover{
+    background-color: #1b7b87;
+    padding: 13px 0 13px 10%;
+    color: #fff;
+
+}
+.bi{
+    margin-right: 20px;
+}
