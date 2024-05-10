@@ -1,0 +1,129 @@
+.main-container{
+    margin:0;
+    padding: 0;
+    background-color: #24b1e0;
+    height:100%;
+}
+.row{
+    height:100vh;
+}
+.leftb{
+    height: 80%;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+.container-body{
+    
+    height: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+      
+}
+.shorts-body{
+    width: 35%;
+    height: 100%;
+    background-image: url("https://picsum.photos/200/300") ; 
+    background-repeat: none;
+    background-size: cover;
+    border-radius: 5px;
+}
+.short-btn{
+    margin: 0;
+    margin-bottom: -11%;
+    width: 8%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align:center;
+    align-items: center;
+    
+}
+.btn{
+    background-color: gray;
+    color: #fff;
+    height:40px;
+    width: 40px;
+    border-radius: 50%;
+    text-align: center;
+    align-items: center;
+}
+.bi{
+    margin-left: -4px;
+    margin-top: -2px;
+    font-size: 20px;
+    color: #fff;
+}
+.btn-profile{
+    border-radius: 5px;
+}
+.shorts-next{
+    margin-left: 200px;
+    margin-top: 350px;
+    margin-right: -280px;
+    height: 50px;
+    width: 50px;
+    opacity: 0;
+}
+.shorts-next:hover{
+    opacity:1;
+}
+.next{
+    height: 50px;
+    width: 50px;
+
+}
+.shorts-top-btns{
+    height: 50%;
+    padding: 30px;
+    opacity: 0;
+}
+.shorts-top-btns:hover{
+    opacity: 1;
+}
+.short-play1{
+    margin-right:20px;
+}
+
+.shorts-description{
+    
+    height: 50%;
+    display:flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: start;
+    opacity: 0;
+}
+.shorts-description:hover{
+    opacity:1;
+}
+.subscribe{
+    border-radius: 10px;
+    width: 100px;
+    background-color: #fff;
+    color: #000;
+}
+.shorts-description-account{
+    width: 100%;
+    height: 30%;
+}
+.shorts-description-profile{
+    height: 50px;
+    width: 50px;
+    
+}
+.shorts-description-name{
+    margin: 20px;
+    margin-bottom: -10px;
+    color: #fff;
+}
+.shorts-description-captions{
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 600;
+    letter-spacing: .07em;
+    padding-left: 30px;
+    margin-top: -20px;
+    color: #fff;
+}

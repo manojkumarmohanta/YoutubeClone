@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { LeftNavbarComponent } from './left-navbar/left-navbar.component';
+import { LeftNavbarComponent } from '../navbar/left-navbar/left-navbar.component';
 import { CardComponent } from './card/card.component';
 
 @Component({
