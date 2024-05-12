@@ -12,9 +12,11 @@
 .leftb{
     height: 80%;
     overflow: hidden;
+    
+}
+.leftb:hover{
     overflow-y: scroll;
 }
-
 .head{
     background-color: #24b1e0;
     height: 5%;

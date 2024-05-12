@@ -1,0 +1,100 @@
+.main-container{
+    margin:0;
+    padding: 0;
+    background-color: #24b1e0;
+}
+.row{
+    height:100vh;
+}
+.col{
+    margin-top:20px;
+}
+.leftb{
+    height: 80%;
+    overflow: hidden;
+    
+}
+.leftb:hover{
+    overflow-y: scroll;
+}
+.head{
+    height: 25%;
+    display: flex;
+    align-items: center;
+    
+}
+.profile-photo{
+    margin-left: 20px;
+    margin-right: 10px;
+    font-size: 80px;
+}
+.profile-details h1{
+    font-weight: bolder;
+    text-transform: capitalize;
+}
+.profile-details p a{
+    text-decoration-line: none;
+    color: #fff;
+}
+.profile-details p a:hover{
+    text-decoration: underline;
+    color: rgb(29, 59, 233);
+}
+.profile-details button{
+    background-color: #68d4f8;
+    margin-right: 10px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    filter: drop-shadow(1px 1px 2px #424242);
+}
+.profile-details button:hover{
+    filter: drop-shadow(2px 2px 4px #68d4f8);
+}
+.profile-details button .bi{
+    font-size: 14px;
+    font-weight: bold;
+    margin-right: 4px;
+}
+.container-body{
+    background-color: #24b1e0;
+    margin: 0;
+    padding: 0;
+    
+}
+.history{
+  width: 100%;  
+}
+.headings{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.headings h5{
+    font-size: 20px;
+    font-weight: bolder;
+}
+.headings button{
+    border: 1px solid #fff;
+    border-radius: 15px;
+    background-color: #24b1e0;
+    font-size: 16px ;
+    font-weight: 600;
+    width: 10%;
+}
+.headings button:hover{
+    color: #fff;
+    filter: drop-shadow(1px 1px 2px #68d4f8);
+}
+.cards{
+    height: 50vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+.cards:hover{
+    overflow-y: scroll;
+}
+

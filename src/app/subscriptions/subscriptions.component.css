@@ -1,0 +1,56 @@
+.main-container{
+    margin:0;
+    padding: 0;
+    background-color: #24b1e0;
+}
+.row{
+    height:100vh;
+}
+.col{
+    margin-top:20px;
+}
+.leftb{
+    height: 80%;
+    overflow: hidden;
+    
+}
+.leftb:hover{
+    overflow-y: scroll;
+}
+.head{
+    background-color: #24b1e0;
+    height: 3%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.latest{
+    padding-left: 20px;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.manage{
+    width: 15%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: 500;
+    padding-right: 20px;
+    
+}
+.manage p{
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+.bi{
+    cursor: pointer;
+}
+.container-body{
+    background-color: #24b1e0;
+    margin: 0;
+    padding: 0;
+    
+}
+
