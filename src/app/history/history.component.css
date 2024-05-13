@@ -1,0 +1,131 @@
+.main-container{
+    margin:0;
+    padding: 0;
+    background-color: #24b1e0;
+}
+.row{
+    height:100vh;
+}
+.col{
+    margin-top:20px;
+}
+.leftb{
+    height: 80%;
+    overflow: hidden;
+    
+}
+.leftb:hover{
+    overflow-y: scroll;
+}
+.head{
+    background-color: #24b1e0;
+    height: 3%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.latest{
+    padding-left: 20px;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.manage{
+    width: 15%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: 500;
+    padding-right: 20px;
+    
+}
+.manage p{
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+.bi{
+    cursor: pointer;
+}
+.container-body{
+    background-color: #24b1e0;
+    margin: 0;
+    padding: 0;
+    
+}
+.watch-history{
+    
+}
+.watch-history-1{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+}
+.right-side input{
+    width: 15rem;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 2px solid #fff;
+    background-color: #24b1e0;
+    color: #fff;
+
+
+}
+.right-side ul li{
+    margin-bottom: 10px;
+    list-style-type: none;
+    list-style-position: outside;
+}
+.right-side ul li:nth-child(1){
+    font-weight: 500;
+}
+.right-side ul li:nth-child(2){
+    font-weight: 500;
+}
+.right-side ul li:nth-child(3){
+    font-weight: 500;
+}
+.right-side ul li:nth-child(4){
+    margin-left: 30px;
+}
+.right-side ul li:nth-child(5){
+    margin-left: 30px;
+}
+.right-side ul li:nth-child(6){
+    margin-left: 30px;
+}
+.right-side ul li i{
+    margin-right: 5px;
+}
+.heighlighter{
+    font-weight: 600;
+
+}
+.heighlighter h2{
+    margin-bottom: 30px;
+}
+.heading{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.heading h5 i{
+    margin-right: 10px;
+
+}
+.heading i{
+    margin-right: 20px;
+}
+.container-card{
+    margin-top: 20px;
+    display: flex;
+}
+.card-body{
+    font-size: 12px;
+    height: 30%;
+}
+.card{
+    height: 60vh;
+    width:11rem;
+}
